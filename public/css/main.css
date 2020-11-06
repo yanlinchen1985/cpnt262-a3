@@ -1,0 +1,72 @@
+/* 
+Include any CSS you need to:
+- limit the max width of the gallery
+- layout the images responsively, centering the gallery on the page
+- preserve the aspect ratio of each image
+*/
+
+/* resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+
+.gallery {
+  /*layout the images responsively and make the gallery center on the page*/
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+
+  /*limit the max width of the gallery*/
+  max-width: 80vw;
+
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  /* Card width and height */
+  width: 350px;
+  height: 370px;
+
+  text-align: center;
+
+  border: solid 1px grey;
+
+  margin: 1em auto;
+}
+
+.card img {
+  align-self: center;
+
+  /* make all image height the same*/
+  height: 197px;
+  width: 100%;
+
+  /* Preserve aspect ratio */  
+  object-fit: cover;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  text-align: center;
+
+  padding: 15px;
+}
