@@ -5,7 +5,7 @@ by Lynn Chen  Nov,6,2020
 
 - Heroku URL:  https://animals-gallery.herokuapp.com/
 - GH repo: https://github.com/yanlinchen1985/cpnt262-a3
-- GH Page(Even though I thing it is unnecessary,I still put it here to follow the instruction of this assignment):https://yanlinchen1985.github.io/cpnt262-a3/
+- GH Page(Even though I think it is unnecessary,I still put it here to follow the instruction of this assignment):https://yanlinchen1985.github.io/cpnt262-a3/
 
 
 ## Attributions
